@@ -1,63 +1,70 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
+# Budget Tracker ![<Test>](https://img.shields.io/badge/License-MIT-blue.svg) 
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+Project Link: 
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+<hr>
 
-Offline Functionality:
+This project was created for the intents and purposes of creating budget tracker that can be used both online and offline.The tracker will be allow you to post the transactions you might have and compile them into an easy to read format.Users will be able to see a graph of their total expenses and the ability to update this tracker both online and offline  Execution of this requires that we: <ul>
+<li> Utilize npm packages to fully utilize mongoose database
+<li> Being able to correctly deploy to heroku
+<li> Troubleshooting errors along the way
+</ul>
 
-  * Enter deposits offline
+The project is done through the use of [Visual Studio Code](https://code.visualstudio.com)  with aide from [NPM documentations](https://www.npmjs.com/).
+# Installation
 
-  * Enter expenses offline
+Steps to participate in this project:
 
-When brought back online:
-
-  * Offline entries should be added to tracker.
-
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
-
-## Business Context
-
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+1. Access the source code and relevant materials through [GitHub](https://github.com/Longhuynh741/Fitness-Tracker). 
+2. Fork the project into your own exisitng repository <br> 
+*Optional. For refactoring and/or updating uses
+3. Clone the copy onto your local branch. *SHH key cloning preferred
+4. Using an installed Visual Studio Code or any other code editor, open the file and run "npm install" to install relevant node modules. *MySQL and inquirer modules needed to run this project
+5. Create your database in the MYSQL workbench. *** It is recommended that you use the file provided in "schema.sql" as a template for your database. 
+6. Correctly connect your database in the "server.js" file. This includes inputting the database name and your password.
+7. Run "node server.js" in order to initialize the code. 
 
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+(Optional): You can also install the [Prettier-Code Formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension to aid in formating the code.
 
-- - -
+# Usage
 
-## Commit Early and Often
+<h2> Using the terminal log, open into the working file. You must be in the working file in order to run node server.js correctly. This should bring you to the landing page where you can edit your budget and add/edit transactions</h2>
 
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+Example: <img src="assets\Fitness Tracker.PNG" alt="NodeExample">
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
 
-* Follow these guidelines for committing:
 
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+# Credits
 
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+Repository Used: [GitHub](https://github.com/)
 
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
+Code Editor Used: [Visual Studio Code](https://code.visualstudio.com)
 
-  * Test your application before you commit to ensure functionality at every step in the development process
+Extensions: [Prettier-Code Formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
+All source code was provided to me by the staff/instructors of the GT-FT-FullStack team.
+# License
 
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
+MIT License
 
-## Submission on BCS
+Copyright (c) [2020] [LongHuynh]
 
-* You are required to submit the following:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-  * the URL to the deployed application
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-  * the URL to the Github repository
-
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
